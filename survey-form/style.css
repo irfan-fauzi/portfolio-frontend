@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
 .container {
-  background-image: url("img/bg.jpg");
+  background-image: url("https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -74,16 +74,12 @@
   border: none;
 }
 
-#survey-form .form-group .input-radio {
+#survey-form .form-group .input-radio, #survey-form .form-group .input-checkbox {
   margin: 0.5em 10px 0.5em 0;
 }
 
 #survey-form .form-group #dropdown {
   margin-top: 0.1em;
-}
-
-#survey-form .form-group .input-checkbox {
-  margin-top: 0.8em;
 }
 
 #survey-form .form-group .input-textarea {
@@ -133,7 +129,7 @@ body, button, .form-control, textarea {
 
 @media only screen and (min-width: 992px) {
   #survey-form {
-    max-width: 50%;
+    max-width: 40%;
   }
 }
 /*# sourceMappingURL=style.css.map */
