@@ -35,6 +35,10 @@
   font-weight: 200;
 }
 
+.header p {
+  font-style: italic;
+}
+
 #survey-form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -48,11 +52,19 @@
   padding: 20px;
   position: relative;
   z-index: 4;
+  margin: 30px auto;
 }
 
 #survey-form .form-group {
   position: relative;
   z-index: 6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #survey-form::after {
