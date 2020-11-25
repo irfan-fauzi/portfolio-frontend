@@ -1,0 +1,44 @@
+#header{
+  background-color:  rgb(241, 234, 234);
+   text-align: center;
+   position: fixed;
+   width: 100%;
+   z-index: 2;
+   .header-img{
+     width: 9em;
+     display: block;
+     margin: -20px auto -40px auto;
+   }
+   .nav-link{
+     list-style-type: none;
+     line-height: 1.5em;
+     a{
+       text-decoration: none;
+     }
+   }
+ }
+
+ @media only screen and (min-width: 768px){
+   #header{
+     display: flex;
+     justify-content: space-around;
+    //  background-color: yellow;
+     align-items: center;
+     height: 5em;
+    //  padding: 0 20px;
+
+     
+     .nav-link{
+       display: inline-block;
+      //  background-color: violet;
+      //  position: relative;
+       margin-right: 20px;
+
+     }
+     .header-img{
+      //  width: 8em;
+       margin: 0;
+      // background-color: rgb(66, 208, 78);
+     }
+   }
+ }

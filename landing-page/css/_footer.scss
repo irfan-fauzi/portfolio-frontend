@@ -1,0 +1,28 @@
+
+#footer{
+  background-color:  rgb(160, 159, 157);
+  height: 3em;
+  width: 100%;
+  position: relative;
+  margin-top: 170px;
+  padding: 10px;
+  .foot{
+    // background-color: yellow;
+    margin: 0 auto;
+    width: 300px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  li, p{
+   line-height: 1.5em;
+    display: inline;
+    // margin-left: 10px;
+    text-align: center;
+   a{
+     text-decoration: none;
+   }
+   p{
+     font-size: 20px;
+   }
+  }
+}

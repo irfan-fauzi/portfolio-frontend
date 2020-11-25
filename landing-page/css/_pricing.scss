@@ -1,0 +1,34 @@
+.pricing{
+  // background-color: chartreuse;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  .price{
+    box-sizing: border-box;
+    border: rgb(107, 105, 105) solid 1px;
+    width: 300px;
+    margin: 20px auto;
+    // padding: 20px;
+    h2{
+      text-align: center;
+      padding: 10px 0;
+      background-color: rgb(160, 159, 157);
+    }
+    h3{
+      text-align: center;
+      margin: 25px auto 10px auto;
+    }
+    p{
+      margin: auto 20px;
+      line-height: 2em;
+    }
+    .btn{
+      margin : 20px 0;
+      width: 120px;
+      height: 40px;
+      border: none;
+      background-color: rgb(243, 189, 10);
+    }
+  }
+
+}

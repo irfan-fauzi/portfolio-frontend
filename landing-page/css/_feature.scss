@@ -1,0 +1,57 @@
+#features{
+  display: flex;
+ 
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  // background-color: chocolate;
+  // max-width: 70%;
+  // max-width: 50%;
+  .feat{
+    // background-color: chocolate;
+    line-height: 1.5em;
+    margin: 20px 0;
+    // max-width: 100%;
+    padding: 10px;
+    // position: absolute;
+    h1,p{
+      margin-left: 125px;
+    }
+    p{
+      margin-top: 10px;
+    }
+  }
+  .feat::before{
+    content: "";
+    height: 80px;
+    width: 80px;
+    position: absolute;
+  }
+  .feat-1::before{
+     background: url('https://www.flaticon.com/svg/static/icons/svg/599/599502.svg');
+  }
+  .feat-2::before{
+    background: url('https://www.flaticon.com/svg/static/icons/svg/609/609361.svg');
+  }
+  .feat-3::before{
+    background: url('https://www.flaticon.com/svg/static/icons/svg/786/786447.svg');
+  }
+  
+}
+
+@media only screen and (min-width: 600px) {
+  .feat{
+    max-width: 90%;
+  }
+} 
+@media only screen and (min-width: 992px) {
+  .feat{
+    max-width: 60%;
+  }
+} 
+
+@media only screen and (min-width: 768px){
+  .feat{
+    max-width: 75%;
+  }
+}

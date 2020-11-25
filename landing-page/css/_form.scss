@@ -1,0 +1,21 @@
+#form{
+  display: flex;
+  flex-direction: column;
+  // background-color: chocolate;
+  width: 300px;
+  text-align: center;
+  margin: 20px auto;
+  line-height: 30px;
+      #submit{
+        max-width: 70%;
+        margin: 25px auto;
+        height: 2em;
+      }
+      #email{
+        height: 2em;
+       
+        padding: 5px;
+      }
+  
+  
+}
