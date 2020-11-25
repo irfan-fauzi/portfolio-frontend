@@ -75,7 +75,7 @@ body{
   .feat{
     // background-color: chocolate;
     line-height: 1.5em;
-    margin-top: 20px;
+    margin: 20px 0;
     // max-width: 100%;
     padding: 10px;
     // position: absolute;
@@ -126,10 +126,10 @@ body{
     }
     h3{
       text-align: center;
-      margin-top: 30px;
+      margin: 25px auto 10px auto;
     }
     p{
-      margin: 0 20px 20px 0;
+      margin: auto 20px;
       line-height: 2em;
     }
     .btn{
@@ -143,7 +143,33 @@ body{
 
 }
 
-
+#footer{
+  background-color:  rgb(160, 159, 157);
+  height: 3em;
+  width: 100%;
+  position: relative;
+  margin-top: 170px;
+  padding: 10px;
+  .foot{
+    // background-color: yellow;
+    margin: 0 auto;
+    width: 300px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  li, p{
+   line-height: 1.5em;
+    display: inline;
+    // margin-left: 10px;
+    text-align: center;
+   a{
+     text-decoration: none;
+   }
+   p{
+     font-size: 20px;
+   }
+  }
+}
 
 
 

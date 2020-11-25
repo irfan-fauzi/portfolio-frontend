@@ -88,7 +88,7 @@ body {
 
 #features .feat {
   line-height: 1.5em;
-  margin-top: 20px;
+  margin: 20px 0;
   padding: 10px;
 }
 
@@ -150,11 +150,11 @@ body {
 
 .pricing .price h3 {
   text-align: center;
-  margin-top: 30px;
+  margin: 25px auto 10px auto;
 }
 
 .pricing .price p {
-  margin: 0 20px 20px 0;
+  margin: auto 20px;
   line-height: 2em;
 }
 
@@ -164,6 +164,37 @@ body {
   height: 40px;
   border: none;
   background-color: #f3bd0a;
+}
+
+#footer {
+  background-color: #a09f9d;
+  height: 3em;
+  width: 100%;
+  position: relative;
+  margin-top: 170px;
+  padding: 10px;
+}
+
+#footer .foot {
+  margin: 0 auto;
+  width: 300px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+
+#footer li, #footer p {
+  line-height: 1.5em;
+  display: inline;
+  text-align: center;
+}
+
+#footer li a, #footer p a {
+  text-decoration: none;
+}
+
+#footer li p, #footer p p {
+  font-size: 20px;
 }
 
 @media only screen and (min-width: 600px) {
