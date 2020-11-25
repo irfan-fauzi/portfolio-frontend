@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(19, 18, 18);
+}
+body{
+  background-color: rgb(241, 234, 234);
+}
+// --header ---------------------
+#header{
+ background-color:  rgb(241, 234, 234);
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  .header-img{
+    width: 9em;
+    display: block;
+    margin: -20px auto -40px auto;
+  }
+  .nav-link{
+    list-style-type: none;
+    line-height: 1.5em;
+    a{
+      text-decoration: none;
+    }
+  }
+}
+
+// form ---------------------
+#main{
+  padding: 10px;
+    margin: auto;
+    position: relative;
+    margin: auto;
+    top: 10em;
+    // background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+  #form{
+    display: flex;
+    flex-direction: column;
+    // background-color: chocolate;
+    width: 300px;
+    text-align: center;
+    margin: 20px auto;
+    line-height: 30px;
+        #submit{
+          max-width: 70%;
+          margin: 25px auto;
+          height: 2em;
+        }
+        #email{
+          height: 2em;
+         
+          padding: 5px;
+        }
+    
+    
+  }
+}
+
+// features -----------------
+
+#features{
+  display: flex;
+ 
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  // background-color: chocolate;
+  // max-width: 70%;
+  // max-width: 50%;
+  .feat{
+    // background-color: chocolate;
+    line-height: 1.5em;
+    margin-top: 20px;
+    // max-width: 100%;
+    padding: 10px;
+    // position: absolute;
+    h1,p{
+      margin-left: 125px;
+    }
+    p{
+      margin-top: 10px;
+    }
+  }
+  .feat::before{
+    content: "";
+    height: 80px;
+    width: 80px;
+    position: absolute;
+  }
+  .feat-1::before{
+     background: url('https://www.flaticon.com/svg/static/icons/svg/599/599502.svg');
+  }
+  .feat-2::before{
+    background: url('https://www.flaticon.com/svg/static/icons/svg/609/609361.svg');
+  }
+  .feat-3::before{
+    background: url('https://www.flaticon.com/svg/static/icons/svg/786/786447.svg');
+  }
+  
+}
+
+.video{
+  margin: 5em auto;
+ 
+}
+.pricing{
+  // background-color: chartreuse;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  .price{
+    box-sizing: border-box;
+    border: rgb(107, 105, 105) solid 1px;
+    width: 300px;
+    margin: 20px auto;
+    // padding: 20px;
+    h2{
+      text-align: center;
+      padding: 10px 0;
+      background-color: rgb(160, 159, 157);
+    }
+    h3{
+      text-align: center;
+      margin-top: 30px;
+    }
+    p{
+      margin: 0 20px 20px 0;
+      line-height: 2em;
+    }
+    .btn{
+      margin : 20px 0;
+      width: 120px;
+      height: 40px;
+      border: none;
+      background-color: rgb(243, 189, 10);
+    }
+  }
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+  .feat{
+    max-width: 90%;
+  }
+} 
+@media only screen and (min-width: 768px) {
+  .feat{
+    max-width: 75%;
+  }
+  .pricing{
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+
+  }
+
+} 
+@media only screen and (min-width: 992px) {
+  .feat{
+    max-width: 60%;
+  }
+} 
