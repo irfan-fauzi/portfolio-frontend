@@ -51,15 +51,15 @@
   }
 }
 
-@media only screen and (min-width: 992px) {
-  .feat {
-    max-width: 60%;
-  }
-}
-
 @media only screen and (min-width: 768px) {
   .feat {
     max-width: 75%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .feat {
+    max-width: 60%;
   }
 }
 
@@ -102,21 +102,38 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 300px;
+  max-width: 100%;
   text-align: center;
   margin: 20px auto;
   line-height: 30px;
 }
 
+#form label {
+  font-size: 25px;
+  margin: 0.6rem 0;
+  padding-bottom: 20px;
+  font-weight: bolder;
+}
+
 #form #submit {
-  max-width: 70%;
   margin: 25px auto;
-  height: 2em;
+  height: 40px;
+  background-color: #f3bd0a;
+  border: none;
+  width: 120px;
 }
 
 #form #email {
   height: 2em;
   padding: 5px;
+  width: 60%;
+  margin: auto;
+}
+
+@media only screen and (min-width: 992px) {
+  #form {
+    margin: -20px auto;
+  }
 }
 
 #header {
@@ -236,16 +253,7 @@ body {
           flex-direction: column;
 }
 
-@media only screen and (min-width: 768px) {
-  .feat {
-    max-width: 75%;
-  }
-}
-
 @media only screen and (min-width: 992px) {
-  .feat {
-    max-width: 60%;
-  }
   .pricing {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;

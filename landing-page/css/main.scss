@@ -27,22 +27,15 @@ body{
   
 }
 
-
-@media only screen and (min-width: 768px) {
-  .feat{
-    max-width: 75%;
-  }
- 
-} 
+// 
 @media only screen and (min-width: 992px) {
-  .feat{
-    max-width: 60%;
-  }
+  // .feat{
+  //   max-width: 60%;
+  // }
   .pricing{
     flex-direction: row;
     width: 70%;
     margin: auto;
-
   }
 
 } 

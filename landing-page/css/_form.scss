@@ -2,20 +2,34 @@
   display: flex;
   flex-direction: column;
   // background-color: chocolate;
-  width: 300px;
+  max-width: 100%;
   text-align: center;
   margin: 20px auto;
   line-height: 30px;
+      label{
+        font-size: 25px;
+        margin: 0.6rem 0;
+        padding-bottom: 20px;
+        font-weight: bolder;
+      }
       #submit{
-        max-width: 70%;
+        // max-width: 70%;
         margin: 25px auto;
-        height: 2em;
+        height: 40px;
+        background-color: rgb(243, 189, 10);
+        border: none;
+        width: 120px;
       }
       #email{
-        height: 2em;
-       
+        height: 2em; 
         padding: 5px;
+        width: 60%;
+        margin: auto;
       }
   
-  
+}
+@media only screen and (min-width: 992px){
+  #form{
+    margin: -20px auto;
+  }
 }
