@@ -48,3 +48,39 @@ body{
     color: rgb(99, 93, 93);
   }
 }
+
+@media only screen and (min-width: 992px) {
+ 
+  body{
+    flex-direction: row;
+  }
+  #navbar{
+    .nav-link{
+      width: 240px;
+    }
+    position: fixed;
+    
+    // height: 100vh;
+    // box-sizing: border-box;
+    ul{
+      box-sizing: border-box;
+      height: 550px;
+      overflow: scroll;;
+    }
+  }
+  #main-doc{
+    position: relative;
+    margin-left: 310px;
+  }
+} 
+
+// @media only screen and (min-width: 768px){
+//   .feat{
+//     max-width: 75%;
+//   }
+// }
+// @media only screen and (min-width: 992px) {
+//   .feat{
+//     max-width: 60%;
+//   }
+// } 

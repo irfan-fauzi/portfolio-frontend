@@ -51,4 +51,29 @@ body header {
   line-height: 1.5;
   color: #635d5d;
 }
+
+@media only screen and (min-width: 992px) {
+  body {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #navbar {
+    position: fixed;
+  }
+  #navbar .nav-link {
+    width: 240px;
+  }
+  #navbar ul {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 550px;
+    overflow: scroll;
+  }
+  #main-doc {
+    position: relative;
+    margin-left: 310px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
