@@ -1,0 +1,29 @@
+@import './navbar';
+@import './main-doc';
+// $page-color : rgb(90, 87, 87);
+
+*{
+  margin: 0;
+  padding: 0;
+  
+  font-size: 16px;
+}
+
+
+
+  body{
+    color: rgb(68, 68, 68);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    height: 100vh;
+    p, header, li{
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 20px 0;
+    }
+    header{
+      color: rgb(17, 17, 17);
+    }
+    
+  }
+

@@ -1,0 +1,26 @@
+#main-doc{
+  // position: relative;
+  // z-index: 3;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+ height: 100vh;
+ overflow: auto;
+  
+  
+  header{
+    font-size: 30px;
+  }
+  p, li{
+    line-height: 1.5;
+  }
+  li{
+    margin-left: 30px;
+  }
+  code{
+    // background-color: #eeee;
+    padding: 20px;
+    margin: 40px 20px;
+  }
+  
+}
