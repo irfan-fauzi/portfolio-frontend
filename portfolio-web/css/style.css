@@ -109,4 +109,11 @@ body {
     margin: auto;
   }
 }
+
+@media only screen and (min-width: 992px) {
+  #project .img-project {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 /*# sourceMappingURL=style.css.map */
