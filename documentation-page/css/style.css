@@ -52,7 +52,7 @@ body header {
   color: #635d5d;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 800px) {
   body {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
