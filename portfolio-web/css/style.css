@@ -28,7 +28,7 @@ body {
 
 #navbar li, #navbar a {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 1em;
   text-transform: uppercase;
   list-style: none;
   color: #0e0d0d;
@@ -94,10 +94,83 @@ body {
 #project .img-project #img-div #img-caption a {
   text-decoration: none;
   color: black;
+  font-size: 1em;
 }
 
 #project h1 {
   padding: 20px 0 40px 0;
+}
+
+#project button {
+  width: 10em;
+  height: 3em;
+  margin: 40px auto;
+  background-color: #0d0d0e;
+  color: #f0ea3f;
+  border: none;
+  font-size: 1em;
+}
+
+#contact {
+  background-color: #0d0d0e;
+  color: #f0ea3f;
+  text-align: center;
+  padding: 2em;
+  font-size: 2em;
+}
+
+#contact .social-media {
+  margin: 40px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#contact .social-media a {
+  position: relative;
+  margin: auto;
+  padding: 7px 20px;
+  text-decoration: none;
+  color: #f0ea3f;
+}
+
+#contact .social-media a:hover {
+  color: white;
+}
+
+#contact .social-media .sm::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 12px;
+  left: -10px;
+  background-color: white;
+}
+
+#contact .social-media .facebook::before {
+  background-image: url("https://www.flaticon.com/svg/static/icons/svg/733/733635.svg");
+}
+
+footer {
+  background-color: #0d0d0e;
+  padding: 50px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+footer p {
+  color: white;
+  margin: auto;
 }
 
 @media only screen and (min-width: 768px) {
